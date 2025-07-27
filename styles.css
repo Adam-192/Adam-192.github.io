@@ -359,7 +359,6 @@ body{
             position: relative;
             justify-content: start;
             padding-top: 3vh;
-            height: 85vh;
 
         }
 
@@ -387,11 +386,15 @@ body{
 
     }
 
-    
-
+    .besedilo_container{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: row;
+    }
 
     .opis_container, ul, li, p{
-        top: 30vh;
+        top: 25vh;
         font-size: 11px;
     }
 
