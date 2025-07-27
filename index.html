@@ -3,30 +3,257 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adam ?</title>
-    <link rel="icon" type="image/x-icon" href="slike/adam-baa-high-resolution-logo-grayscale-transparent.png">
+    <title>Portfolio</title>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
-
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style_kvadrat.css">
+    <link rel="stylesheet" href="style_krog.css">
 </head>
 <body>
-    <!-- OZADJE - DEKORACIJA -->
-    <div class="logo_container">
-        <img src="./slike/adam-baa-high-resolution-logo-removebg-preview.png" alt="Logo" width="150px">
+
+    <div class="deco_kvadrat" id="deco_01">
+        <div class="dk1"></div>
+        <div class="dk2"></div>
+        <div class="dk3"></div>
+    </div>
+        <div class="deco_kvadrat" id="deco_02">
+        <div class="dk1"></div>
+        <div class="dk2"></div>
+        <div class="dk3"></div>
+    </div>
+        <div class="deco_kvadrat" id="deco_03">
+        <div class="dk1"></div>
+        <div class="dk2"></div>
+        <div class="dk3"></div>
     </div>
 
-    <!-- GLAVA -->
-    <div>
-        <div > KDO SEM? ... Adam </div>
+    <div class="krog" id="krog_01"></div>
+
+    <div class="info_container">
+        <div>Gmail: adam.basa192@gmail.com</div>
+        <div>Outlook: adam.basa@student.um.si</div>
+        <div>GitHub: Adam-192</div>
     </div>
 
-    <!-- POVEZAVE -->
-    <div>
-        <div style="display: flex; flex-direction: column; margin: 20px; align-items: center;">
-            <a href="index.html"> O MENI</a>
-            <a href="index.html"> IZOBRAZBA</a>
-            <a href="index.html"> HOBIJI </a>
+   
+
+    <div class="flex-container">
+        
+        <div class="besedilo_container"> 
+            <div class="deco_crta1"></div>
+            <div class="deco_crta2"></div>
+            <div class="deco_crta3"></div>
+
+            <div class="LZ"></div>
+            <div class="DS"></div>
+
+            <div class="levo">
+
+                <div class="besedilo">
+                    <div class="besedilo_vrinjen">diplomirani inženir računalništva in informacijskih tehnologij (UN) </div>
+                    <div class="korencek1"></div>
+                    <div class="korencek2"></div>
+                    <div class="korencek3"></div>
+                    <div class="korencek4"></div>
+                </div>
+
+                <div class="besedilo">
+                    <div class="text1">sem</div>
+                    <div class="text2">A</div>
+                    <div class="text3">dam</div>
+                    <div class="text2">B</div>
+                    <div class="text3">aša</div>
+                    <div class="text4">,</div>
+                    <div class="text4">študent na FERI</div>
+                </div>
+            </div>
+
+            <i class="arrow right"></i>
+
+            <div class="desno">
+                <div class="gumbi_container">
+
+                    <div class="gumb" onclick="myFunction('opis')"> <div class="deco_crta_skozi_gumbe"></div> O MENI</div>
+                    <div class="gumb" onclick="myFunction('izobrazba')"> <div class="deco_crta_skozi_gumbe"></div> IZOBRAZBA</div>
+                    <div class="gumb" onclick="myFunction('znanje')"><div class="deco_crta_skozi_gumbe"></div>ZNANJE</div>
+                    <div class="gumb" onclick="myFunction('hobiji')"><div class="deco_crta_skozi_gumbe"></div>HOBIJI</div>
+                </div>
+
+                <div class="opis_container" id="opis">
+                    <div class="crta_anim_base crta_anim1"></div>
+                    <div class="crta_anim_base crta_anim2"></div>   
+                    <p>
+                        <h2> O MENI </h2>
+                        Sem študent 2. letnika magistrskega študija na Fakulteti za elektrotehniko, računalništvo in informatiko
+                        (FERI), Univerze v Mariboru, smer Računalništvo in informacijske tehnologije (UN). Po zaključku prve
+                        stopnje sem pridobil strokovni naziv diplomirani inženir računalništva in informacijskih tehnologij
+                        (UN), študij pa sem nadaljeval na isti smeri na magistrski ravni. Trenutno sem začel s pisanjem
+                        magistrskega dela, ki ga nameravam zaključiti v absolventu.
+                        Moje zanimanje za tehnologijo se je začelo že zgodaj, z leti pa sem ga poglobil predvsem na področju
+                        spletnega razvoja. Najbolj me navdušuje frontend razvoj, kjer lahko združujem tehnično znanje s
+                        kreativnostjo. V prostem času se ukvarjam tudi z razvojem računalniških iger, 3D modeliranjem v
+                        programu Blender ter z raznimi oblikovalskimi in umetniškimi projekti (risanje, kiparjenje, barvanje
+                        ipd.).
+                        Sem natančen, organiziran in samoiniciativen, delo pa vedno opravim odgovorno in pravočasno. Poleg
+                        slovenščine tekoče govorim tudi madžarski in nemški jezik, dobro pa obvladam tudi angleščino.
+                    </p>
+                </div>
+                <div class="opis_container" id="izobrazba">
+                    <div class="crta_anim_base crta_anim1"></div>
+                    <div class="crta_anim_base crta_anim2"></div>   
+                    
+                    <p>
+                        <h2> IZOBRAZBA </h2>
+                        <ul>
+                            <li>2015–2019 Dvojezična osnovna šola Dobrovnik</li>
+                            <li>2015–2019 Gimnazija Franca Miklošiča Ljutomer (DSD II – Certifikat o znanju nemškega jezika)</li>
+                            <li>2019–2023 Univerza v Mariboru, FERI (Diplomski študij – Računalništvo in informacijske tehnologije) - Strokovni naziv: diplomirani inženir računalništva in informacijskih tehnologij (UN)</li>
+                            <li>2023–danes Univerza v Mariboru, FERI (Magistrski študij – Računalništvo in informacijske tehnologije)</li>
+
+                        </ul>
+
+                        Izkušnje:
+                            Večino znanja sem pridobil med študijem, kjer sem se spoznal s celotnim procesom razvoja programske
+                            opreme. Posebej sem se navdušil nad razvojem spletnih aplikacij, predvsem na strani uporabniškega
+                            vmesnika (frontend). Na tem področju sem se dodatno izobraževal tudi sam – preko spletnih tečajev,
+                            dokumentacije in praktičnih projektov.
+                    </p>
+                </div>
+
+                <div class="opis_container" id="znanje">
+                    <div class="crta_anim_base crta_anim1"></div>
+                    <div class="crta_anim_base crta_anim2"></div>   
+                    <p>
+                        <h2>Jeziki in tehnologije:</h2>
+                        <ul>
+                            <li>Programski jeziki: C++, C, C#, Python</li>
+                            <li>Frontend: HTML, CSS, JavaScript, Bootstrap, React, Angular</li>
+                            <li>Backend: Node.js, Spring Boot</li>
+                            <li>Baze podatkov: MySQL, MongoDB</li>
+                            <li> CMS: WordPress</li>
+                            <li> Ostalo: GitHub</li>
+                        </ul>
+                    </p>
+                    
+                </div>
+                <div class="opis_container" id="hobiji">
+                    <div class="crta_anim_base crta_anim1"></div>
+                    <div class="crta_anim_base crta_anim2"></div>   
+                    <p>
+                        <h2> HOBIJI </h2>
+                        Najbolj me zanima delo z modernimi frontend tehnologijami, kjer lahko združim tehnično znanje in
+                        smisel za uporabniško izkušnjo. Uživam v ustvarjanju odzivnih, dostopnih in estetsko dovršenih spletnih
+                        vmesnikov.
+                        Poleg tega pa še ustvarjam, kovačim, rišem, barvam, glinarim, izdelujem različne izdelke kot so razne maske, kipe, ipd.
+                    </p>
+                </div>
+            
+            </div>
         </div>
+
+        
     </div>
+
+    
+
+    <script>
+        document.getElementById("deco_01").style.top="10vh";
+        document.getElementById("deco_01").style.left="10vw";
+        document.getElementById("deco_01").style.animation="dih 5s infinite";
+        
+        document.getElementById("deco_02").style.top="20vh";
+        document.getElementById("deco_02").style.left="15vw";
+        document.getElementById("deco_02").style.scale="1.3";
+        document.getElementById("deco_02").style.animation="dih2 8s infinite";
+        
+    
+        document.getElementById("deco_03").style.top="75vh";
+        document.getElementById("deco_03").style.left="80vw";
+        document.getElementById("deco_03").style.animation="dih 6s infinite";
+
+        document.getElementById("krog_01").style.top="10vh";
+        document.getElementById("krog_01").style.left="17vw";
+
+        const barve = ["#2e1f1f", "#3b2a2a", "#442f2f", "#503737", "#5c4040"];
+
+        for (let i = 0; i < 30; i++) {
+            const krog = document.createElement("div");
+            krog.className = "krog";
+            krog.style.position = "fixed";
+            const top = 10 + Math.random() * 80; // 10-90
+            const left = 10 + Math.random() * 80; // 10-90
+
+            krog.style.top = `${top}vh`;
+            krog.style.left = `${left}vw`;
+
+            const barva = barve[Math.floor(Math.random() * barve.length)];
+            krog.style.backgroundColor = barva;
+
+            krog.style.animationDelay = `${Math.random() * 5}s`;
+
+            document.body.appendChild(krog);
+        }
+
+        for (let i = 0; i < 20; i++) {
+            const krog = document.createElement("div");
+            krog.className = "krog";
+            krog.style.position = "fixed";
+            const top =  40 + Math.random() * 50; // 40-90 
+            const left = 5 + Math.random() * 35; // 5-40
+
+            krog.style.top = `${top}vh`;
+            krog.style.left = `${left}vw`;
+
+            const barva = barve[Math.floor(Math.random() * barve.length)];
+            krog.style.backgroundColor = barva;
+
+            krog.style.animationDelay = `${Math.random() * 5}s`;
+
+            document.body.appendChild(krog);
+        }
+
+    window.onload = function() {
+        var x1 = document.getElementById('opis');
+        x1.style.display = "none"
+        var x2 = document.getElementById('hobiji');
+        x2.style.display = "none"
+        var x3 = document.getElementById('izobrazba');
+        x3.style.display = "none"
+            var x4 = document.getElementById('znanje');
+            x4.style.display = "none"
+    };
+
+    function myFunction(moj_id) {
+        var x = document.getElementById(moj_id);
+
+        var gumbi = document.querySelectorAll('.gumb');
+        gumbi.forEach(function(gumb) {
+            gumb.classList.remove('active');
+        });
+
+        if (x.style.display === "none") {
+            var x1 = document.getElementById('opis');
+            x1.style.display = "none"
+            var x2 = document.getElementById('hobiji');
+            x2.style.display = "none"
+            var x3 = document.getElementById('izobrazba');
+            x3.style.display = "none"
+            var x4 = document.getElementById('znanje');
+            x4.style.display = "none"
+
+            gumbi.forEach(function(gumb) {
+            if (gumb.getAttribute('onclick') === `myFunction('${moj_id}')`) {
+                    gumb.classList.add('active');
+                }
+            });
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+
+        
+    </script>
+
 </body>
 </html>
