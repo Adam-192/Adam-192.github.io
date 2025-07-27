@@ -94,7 +94,7 @@ body{
 .besedilo_container{
     display: flex;
     align-items: start;
-    padding-top: 5%;
+    padding-top: 2%;
     justify-content: center;
     flex-direction: row;
 }
@@ -358,7 +358,7 @@ body{
             flex-direction: column;
             position: relative;
             justify-content: start;
-            padding-top: 10vh;
+            padding-top: 3vh;
 
         }
 
@@ -387,7 +387,7 @@ body{
     }
 
     .opis_container, ul, li, p{
-        top: 35vh;
+        top: 30vh;
         font-size: 11px;
     }
 
