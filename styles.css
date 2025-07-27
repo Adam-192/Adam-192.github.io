@@ -359,6 +359,7 @@ body{
             position: relative;
             justify-content: start;
             padding-top: 3vh;
+            height: 85vh;
 
         }
 
@@ -385,6 +386,9 @@ body{
         z-index: 2;
 
     }
+
+    
+
 
     .opis_container, ul, li, p{
         top: 30vh;
