@@ -342,7 +342,7 @@ body{
     }
 
     .text4{
-        margin-left: 5px;
+        display: none;
     }
 
     .besedilo_vrinjen{
@@ -387,7 +387,7 @@ body{
     }
 
     .opis_container, ul, li, p{
-        top: 40vh;
+        top: 35vh;
         font-size: 11px;
     }
 
