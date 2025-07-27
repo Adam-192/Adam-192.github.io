@@ -397,6 +397,8 @@ body{
 
     h2{
         font-size: 18px;
+        padding: 0;
+        margin-top: -25px;
     }
 
 }
