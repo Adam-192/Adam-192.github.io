@@ -212,22 +212,22 @@ a{
     .besedilo,
     .dva_dela .besedilo,
     .desno{
-        max-width: 90%;     
-        width: 90%;
+        max-width: 80%;     
+        width: 80%;
         font-size: medium;  
     }
 
 
     .zvezde {
-        font-size: large;
+        font-size: small;
         font-weight: bold;
         display: flex;
-        flex-wrap: wrap;       /* ✅ da se zvezde lepo prelijejo v novo vrstico */
-        gap: 5px;              /* malo prostora med besedilom in ikonami */
+        flex-wrap: wrap;      
+        gap: 5px;            
         justify-content: center;
         align-items: center;
-        width: auto;           /* ✅ odstranjena fiksna širina */
-        max-width: 90%;        /* ✅ prilagodljiva širina */
+        width: auto;          
+        max-width: 80%;       
         border: solid white 1px;
         border-radius: 8px;
         padding: 10px;
@@ -236,7 +236,7 @@ a{
     }
 
     .zvezda {
-        width: 32px; /* malo manjše ikone na manjših ekranih */
+        width: 24px; 
     }
 
 }
