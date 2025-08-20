@@ -1,0 +1,247 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+
+h3{
+    color: rgb(187, 187, 187);
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    position: fixed;
+    width: 120px;
+    height: 100%;
+    background-color: rgb(75, 75, 75);
+}
+
+.menu_element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    color: rgb(160, 160, 160);
+    transition: 0.2s;
+}
+.menu_element:hover{
+    background-color: rgb(59, 59, 59);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu_element img{
+    width: 64px;
+}
+
+.content{
+    color: white;
+    margin-left: 120px;
+
+    width: 100%-120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.glava{
+    margin-top: 50px;
+}
+
+.slika img{
+    width: 600px;
+    border: solid 2px rgb(29, 29, 29);
+    border-radius: 21px;
+    box-shadow: 0 0 10px rgb(29, 29, 29);
+}
+
+.o_meni{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dva_dela {
+    display: flex;
+    justify-content: center;  
+    align-items: center;       
+    gap: 40px;                
+    text-align: justify;      
+    margin: 40px 0;
+}
+
+.dva_dela img {
+    width: 200px;              
+    border-radius: 15px;       
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.dva_dela .besedilo{
+     max-width: 25vw;    
+}
+
+.besedilo{
+    margin-top: 25px;
+    display: flex;
+    font-size: large;
+    text-align: justify;
+
+    margin-bottom: 25px;
+    flex-direction: column;
+    max-width: 50vw;    
+}
+
+.izobrazba li{
+    margin: 20px 0;
+}
+
+.izkusnje{
+    display: flex;
+    justify-content: center;  
+    align-items: center;       
+    gap: 40px;    
+    margin-bottom: 30px;            
+}
+
+.zvezde{
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border: solid white 1px;
+    border-radius: 8px;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+.zvezda{
+    width: 48px;
+}
+
+.desno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;        
+}
+
+
+.line_l{
+    margin: 15px 0;
+    width: 75vw;
+    height: 2px;
+    background-image: linear-gradient(to right, rgb(174, 0, 255) , rgb(119, 217, 247));
+    border-radius: 8px;
+}
+.line_r{
+    margin: 15px 0;
+    width: 75vw;
+    height: 2px;
+    background-image: linear-gradient(to right, rgb(119, 217, 247), rgb(174, 0, 255));
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .menu{
+        font-size: small;
+        position: fixed;
+        width: 80px;
+        height: 100%;
+        background-color: rgb(75, 75, 75);
+    }
+
+    .menu_element{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+        color: rgb(160, 160, 160);
+        transition: 0.2s;
+    }
+    .menu_element:hover{
+        background-color: rgb(59, 59, 59);
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .menu_element img{
+        width: 32px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .menu{
+        display: none;
+        width: 0%;
+    }
+    .content{
+        color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .desno{
+        display: flex;
+        align-items: center;
+    }
+
+    .slika img{
+        width: 320px;
+    }
+
+    .izkusnje_slika,
+    .slika_hobby,
+    .contact_slika{
+        display: none;
+    }
+
+    .besedilo,
+    .dva_dela .besedilo,
+    .desno{
+        max-width: 80%;     
+        width: 80%;
+        font-size: medium;  
+    }
+
+
+    .zvezde {
+        font-size: small;
+        font-weight: bold;
+        display: flex;
+        flex-wrap: wrap;      
+        gap: 5px;            
+        justify-content: center;
+        align-items: center;
+        width: 90%;          
+        max-width: 90%;       
+        border: solid white 1px;
+        border-radius: 8px;
+        padding: 10px;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .zvezda {
+        width: 24px; 
+    }
+
+}
