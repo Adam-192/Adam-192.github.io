@@ -199,6 +199,11 @@ a{
         margin: 0;
     }
 
+    .desno{
+        display: flex;
+        align-items: center;
+    }
+
     .slika img{
         width: 320px;
     }
@@ -226,8 +231,8 @@ a{
         gap: 5px;            
         justify-content: center;
         align-items: center;
-        width: auto;          
-        max-width: 80%;       
+        width: 90%;          
+        max-width: 90%;       
         border: solid white 1px;
         border-radius: 8px;
         padding: 10px;
