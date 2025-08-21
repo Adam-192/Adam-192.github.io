@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>igra RUNE</title>
+    <link rel="stylesheet" href="style_rune.css">
+</head>
+<body>
+    <div style="display: flex; flex-direction: column; width: 180px;">
+        Ideja: Emil Feher
+        Sprogramiral: Adam Baša
+        <button onclick="nazaj()" style="padding: 5px 0; margin: 4px;"> NAZAJ</button>
+    </div>
+
+    <div id="igra" class="igra-container">
+
+        <div class="status">
+            <p id="status"></p>
+        </div>
+
+        <div class="igra">
+            <p id="mana" class="mana"></p>
+            <div class="runa">
+                <img id="slika_runa" onclick="clickFunction()" draggable="false" src="slike_rune/runa0.png">
+            </div>
+        </div>
+
+        <div class="upgrades">
+            <button id="button_upgrade_click" onclick="upgrade_click()"> +CLICK <br>10mana</button>
+            <button id="button_upgrade_autoclick" onclick="upgrade_autoclick()"> +AUTOCLICK<br>25mana</button>
+        </div>
+
+    </div>
+
+    <div id="bb" class="bottom_buttons">
+        <div>
+            <button id="button_1pro" onclick="upgrade_1pro()"> +15%<br>100mana</button>
+            
+            <button id="button_2pro" onclick="upgrade_2pro()"> +35%<br>450mana</button>
+            
+            <button id="button_3pro" onclick="upgrade_3pro()"> +50%<br>1500mana</button>
+        </div>
+
+        <div>
+            <button id="zmaga" onclick="zmaga()"> VICTORY<br>4444mana</button>
+        </div>
+    </div>
+
+    <div class="zmaga_container">
+        <div id="zmaga_text" class="zmaga">
+            !!!ZMAGA!!!
+            <button onclick="nazaj()">NAZAJ</button>
+            <button onclick="refresh()">PONOVNO IGRAJ</button>
+        </div>  
+    </div>
+    
+    <script src="igra_rune.js"></script>
+    <script>
+        function nazaj(){
+            location.href = "/index.html";
+        }
+        function refresh(){
+            location.href = "/igra_rune.html";
+        }
+        document.getElementById("zmaga_text").style.display='none';
+    </script>
+</body>
+</html>
